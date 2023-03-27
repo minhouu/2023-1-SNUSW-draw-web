@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-header-block {
+  display: flex;
+  width: 1200px;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.main-header-block img {
+  width: 500;
+}
+
+.main-header-block-dscrpt {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main button {
+  width: 300px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.dgt-draw-button {
+  width: 100px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.dgt-group {
+  font-size: 25px;
+  margin-bottom: 5px;
+  word-spacing: 10px;
+}
