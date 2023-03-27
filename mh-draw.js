@@ -49,14 +49,6 @@ function shuffle(array) {
 
 const group = document.querySelectorAll(".dgt-group");
 
-// const studentShuffled = shuffle(students36);
-// [...group].forEach(function (currentValue, currentIndex, listObj) {
-//   const stdNum = currentIndex * 4;
-//   currentValue.innerText = `${currentIndex + 1}조 : ${students36[stdNum]}, ${
-//     students36[stdNum + 1]
-//   }, ${students36[stdNum + 2]}, ${students36[stdNum + 3]}`;
-// });
-
 const runButton = document.querySelector(".dgt-draw-button");
 runButton.addEventListener("click", function printShuffle() {
   const studentShuffled = shuffle(students36);
