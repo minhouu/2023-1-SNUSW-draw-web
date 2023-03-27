@@ -27,10 +27,11 @@ main {
   align-items: center;
 }
 
-main button {
-  width: 500px;
-  height: 300px;
+main .button-1 {
+  width: 300px;
+  height: 180px;
   font-size: 15px;
+  margin-top: 20px;
   margin-bottom: 30px;
 }
 
