@@ -33,6 +33,7 @@ function shuffle(array) {
   return array;
 }
 
+// html select
 const group = document.querySelectorAll(".dgt-group");
 
 const runButton = document.querySelector(".dgt-draw-button");
