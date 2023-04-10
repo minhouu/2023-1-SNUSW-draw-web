@@ -35,6 +35,14 @@ main .button-1 {
   margin-bottom: 30px;
 }
 
+main .button-2 {
+  width: 300px;
+  height: 180px;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 .dgt-draw-button {
   width: 100px;
   height: 60px;
@@ -45,4 +53,10 @@ main .button-1 {
   font-size: 30px;
   margin-bottom: 5px;
   word-spacing: 10px;
+}
+
+.draw-group-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
