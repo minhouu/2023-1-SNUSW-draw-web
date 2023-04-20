@@ -41,7 +41,7 @@ runButton.addEventListener("click", function printShuffle() {
   shuffle(students22);
   let stdNum = 0;
   [...group].forEach(function (currentValue, currentIndex, listObj) {
-    if (currentIndex == 5 || currentIndex == 4) {
+    if (currentIndex === 5 || currentIndex === 4) {
       currentValue.innerHTML = `<div class="dgt-group"><b>${
         currentIndex + 1
       }조 : (조장) ${students22[stdNum]}</b>, ${students22[stdNum + 1]}, ${
