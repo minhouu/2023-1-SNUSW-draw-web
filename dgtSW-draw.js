@@ -51,7 +51,7 @@ const group = document.querySelectorAll(".dgt-group");
 
 const runButton = document.querySelector(".dgt-draw-button");
 runButton.addEventListener("click", function printShuffle() {
-  const studentShuffled = shuffle(students36);
+  shuffle(students36);
   [...group].forEach(function (currentValue, currentIndex, listObj) {
     const stdNum = currentIndex * 4;
     currentValue.innerHTML = `<div class="dgt-group"><b>${

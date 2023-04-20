@@ -38,21 +38,23 @@ const group = document.querySelectorAll(".dgt-group");
 
 const runButton = document.querySelector(".dgt-draw-button");
 runButton.addEventListener("click", function printShuffle() {
-  const studentShuffled = shuffle(students22);
+  shuffle(students22);
+  let stdNum = 0;
   [...group].forEach(function (currentValue, currentIndex, listObj) {
-    const stdNum = currentIndex * 3;
-    if (currentIndex == 6) {
+    if (currentIndex == 5 || currentIndex == 4) {
       currentValue.innerHTML = `<div class="dgt-group"><b>${
         currentIndex + 1
       }조 : (조장) ${students22[stdNum]}</b>, ${students22[stdNum + 1]}, ${
         students22[stdNum + 2]
       }, ${students22[stdNum + 3]}</div>`;
+      stdNum += 4;
     } else {
       currentValue.innerHTML = `<div class="dgt-group"><b>${
         currentIndex + 1
       }조 : (조장) ${students22[stdNum]}</b>, ${students22[stdNum + 1]}, ${
         students22[stdNum + 2]
       }</div>`;
+      stdNum += 3;
     }
   });
 });
